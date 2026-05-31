@@ -1,13 +1,45 @@
-# Build artefacts
+# Build output — all artefacts live under build/
 build/
 
-# Editor and IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Kernel module build artefacts that may appear outside build/
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+*.cmd
+*.d
+.tmp_versions/
+modules.order
+Module.symvers
 
-# CMake local cache
+# Compiled object files
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug / IDE
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gch
+*.pch
+
+# CMake (test build inside build/, already covered, but explicit for clarity)
 CMakeCache.txt
 CMakeFiles/
+cmake_install.cmake
