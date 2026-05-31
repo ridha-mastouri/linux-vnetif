@@ -1,0 +1,7 @@
+VNETIF VIRTUAL NETWORK INTERFACE DRIVER
+M:	Ridha MASTOURI <mastouri.rida@gmail.com>
+S:	Maintained
+F:	src/
+F:	tests/
+F:	scripts/
+F:	Documentation/vnetif.md
